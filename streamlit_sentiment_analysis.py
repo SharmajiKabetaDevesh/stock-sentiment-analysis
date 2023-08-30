@@ -4,14 +4,14 @@ import datetime
 import streamlit as st
 
 # Replace YOUR_API_KEY with your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "apiyours"
 
 # Replace YOUR_TWITTER_API_KEY, YOUR_TWITTER_API_SECRET, YOUR_TWITTER_ACCESS_TOKEN, and YOUR_TWITTER_ACCESS_TOKEN_SECRET with your Twitter API credentials
 auth = tweepy.OAuth1(
-    "g9ps9bj7Xb219fa8SpkykbzCh",
-    "kp9dfvZ6Rmeid4NGnXNf2JHJwwTgEky3nLI5sL9LZnHT4m6byB",
-    "1696827554941018112-9S3RsrQxumEkRihvUTCK9Dq0HO8AE0",
-    "bYMpkuzSUokUYrAfZxfpOcA5ipM3KYXlctlDlYLwQLzXN"
+    "api",
+    "api",
+    "api",
+    "api"
 )
 
 api = tweepy.API(auth)
